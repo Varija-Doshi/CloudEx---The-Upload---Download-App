@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "899837384693",
+    "firebase_url": "https://electura-2ae91.firebaseio.com",
+    "project_id": "electura-2ae91",
+    "storage_bucket": "electura-2ae91.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899837384693:android:3133b01f529225c7baf2bc",
+        "android_client_info": {
+          "package_name": "com.example.electura"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899837384693-ra5mdluufgin08ai92aa25rnodg8lh9k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.electura",
+            "certificate_hash": "a60f075b5bb15839261fb0d7ddda36f9f5769cfc"
+          }
+        },
+        {
+          "client_id": "899837384693-dp338bkakjmdh2c1tc99v6honiutpvb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZG7_XFub9_cc0vrpcPm5bjIBtisl2SEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899837384693-dp338bkakjmdh2c1tc99v6honiutpvb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

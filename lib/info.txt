@@ -1,0 +1,32 @@
+Username: Crystal
+Email: crystal@try.com
+password: abc123
+
+Username: Maahi
+Email: painter@try.com
+password: painter
+
+
+Some notes:
+To get the reference back from the download url:
+StorageReference _ref = await _storage
+                              .getReferenceFromUrl(url);
+
+error status: 
+ NoSuchMethodError: Closure call with mismatched arguments: function '[]'
+ tried calling 'file' found Map<String , dynamic>
+Solved using :
+DocumentSnapshot.data() is a method not a getter, therefore it's necessary to include the parentheses to actually call the method and obtain the returned Map. This is why dart is confused and throws an error as you're trying to use the [] operator on a function reference.
+Conclusion use snapshot.data.documents[i].data()['files']
+
+21-03-2021
+Things worked on :
+1) Got the UI orientend
+2) Got the hide/unhide button for password
+3) Got the keep me signed in option
+4) crted the backend for delete function
+5) named app: CloudEx
+
+Things to work on:
+1) Put a animation stating "Swipe to delete or download"
+2) Preview the pic before downloading it.
